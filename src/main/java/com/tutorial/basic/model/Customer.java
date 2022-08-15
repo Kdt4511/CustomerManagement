@@ -1,10 +1,16 @@
 package com.tutorial.basic.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Customer {
 
+    @JsonProperty("id") //vdo11
     private int customerId;
+    @JsonProperty("firstName")
     private String customerFirstName;
+    @JsonProperty("lastName")
     private String customerLastName;
+    @JsonProperty("email")
     private String customerEmail;
 
     public int getCustomerId() {
