@@ -36,7 +36,7 @@ public class CustomerResources {
     }
 
     //vdo10
-    @DeleteMapping(value = "/{customerId]")
+    @DeleteMapping(value = "/{customerId}]")
     public void deleteCustomer(@PathVariable("customerId") int customerId){
         customerService.deleteCustomer(customerId);
     }
