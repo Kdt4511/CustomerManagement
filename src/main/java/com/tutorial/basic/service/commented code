@@ -1,0 +1,42 @@
+/* to add
+        customer.setCustomerId(customerIdCount);
+        customerList.add(customer);
+        customerIdCount++;
+        return customer;*/
+
+ /* to update
+        customerList
+                    .stream()
+                    .forEach(customer1 -> {
+                        if(customer1.getCustomerId() == customerId){
+                            customer1.setCustomerFirstName(customer.getCustomerFirstName());
+                            customer1.setCustomerLastName(customer.getCustomerLastName());
+                            customer1.setCustomerEmail(customer.getCustomerEmail());
+                        }
+                    });
+             return customerList
+                     .stream()
+                     .filter(customer1 -> customer1.getCustomerId() == customerId)
+                     .findFirst()
+                     .get();*/
+
+ /* to delete
+       customerList
+                .stream()
+                .forEach(customer -> {
+                    if(customer.getCustomerId() == customerId) {
+                        customerList.remove(customer);
+                    }
+                });*/
+
+ /* to get by ID
+        return customerList
+                .stream()
+                .filter(customer -> customer.getCustomerId() == customerId)
+                .findFirst()
+                .get();*/
+
+/* to get all at once
+
+    public List<Customer> getCustomers(){
+        return customerList;}*/
